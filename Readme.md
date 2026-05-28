@@ -109,6 +109,9 @@ source .venv/bin/activate        # Windows: .venv\Scripts\activate
 
 # Install dependencies
 pip install torch torchvision pillow pandas nltk tqdm
+
+# flickr8k folder
+Place the folder in the same directory as the train.py
 ```
 
 ---
