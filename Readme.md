@@ -17,11 +17,11 @@ This project implements the classic **encoder-decoder** architecture for image c
 
 ```
 pic2words/
-├── dataset.py        # Custom PyTorch Dataset + vocabulary builder
+├── test.py        # Custom PyTorch Dataset + vocabulary builder
 ├── model.py          # EncoderCNN, DecoderRNN, CNNtoRNN
 ├── train.py          # Training loop
 ├── utils.py          # Helper functions (save/load checkpoints)
-├── inference.py      # Caption generation for new images
+├── get_loader.py      # Caption generation for new images
 ├── flickr8k/         # Dataset directory (see below)
 │   ├── Images/
 │   └── captions.txt
