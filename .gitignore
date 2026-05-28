@@ -1,0 +1,11 @@
+venv/
+.venv/
+__pycache__/
+*.pyc
+*.pth
+*.pth.tar
+.env
+.ipynb_checkpoints/
+runs/
+flickr8k/
+node_modules/
